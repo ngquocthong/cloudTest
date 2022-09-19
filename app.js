@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
     res.end('<h1>Quoc Thong dep trai nhat Can Tho
           </h1>
-            <img src="./img/thong.jpeg" alt="Nature" width="400" height="700">');
+            <img src="./thong.jpeg" alt="Nature" width="400" height="700">');
 });
 
 server.listen(port, () => {
